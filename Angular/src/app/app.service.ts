@@ -76,25 +76,28 @@ const dependencies: Dependency[] = [{
 const resources: Resource[] = [{
   id: 1,
   text: 'Management',
-}]
+}];
 
 const resourceAssignments: ResourceAssignment[] = [{
   id: 0,
   taskId: 3,
   resourceId: 1,
-}]
+}];
 
 @Injectable()
 export class Service {
   getTasks(): Task[] {
     return tasks;
   }
+
   getDependencies(): Dependency[] {
     return dependencies;
   }
+
   getResources(): Resource[] {
     return resources;
   }
+
   getResourceAssignments(): ResourceAssignment[] {
     return resourceAssignments;
   }
