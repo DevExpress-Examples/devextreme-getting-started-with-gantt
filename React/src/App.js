@@ -1,6 +1,5 @@
 import 'devextreme/dist/css/dx.light.css';
 import 'devexpress-gantt/dist/dx-gantt.min.css';
-import React from 'react';
 
 import Gantt, {
   Tasks, Dependencies, Resources, ResourceAssignments, Column,
