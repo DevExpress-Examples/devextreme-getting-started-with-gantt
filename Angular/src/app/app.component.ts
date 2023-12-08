@@ -1,20 +1,23 @@
 import { Component } from '@angular/core';
-import { ClickEvent } from 'devextreme/ui/button';
-
+import {
+  Service, Task, Dependency, Resource, ResourceAssignment
+} from './app.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
+  styleUrls: ['./app.component.css'],
+  providers: [Service]
 })
 export class AppComponent {
-  title = 'Angular';
+  tasks: Task[];
+  dependencies: Dependency[];
+  resources: Resource[];
+  resourceAssignments: ResourceAssignment[];
 
-  counter = 0;
-
-  buttonText = 'Click count: 0';
-
-  onClick(e: ClickEvent): void {
-    this.counter++;
-    this.buttonText = `Click count: ${this.counter}`;
+  constructor(service: Service) {
+    this.tasks = service.getTasks();
+    this.dependencies = service.getDependencies();
+    this.resources = service.getResources();
+    this.resourceAssignments = service.getResourceAssignments();
   }
 }
