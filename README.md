@@ -3,40 +3,26 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1204975)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# DevExtreme Examples Template
+# DevExtreme Gantt - Getting Started 
 
-This is the repository template for creating new examples. 
+This repository stores code examples of the Gantt component for the [Getting Started with Gantt](https://js.devexpress.com/Documentation/Guide/UI_Components/Gantt/Getting_Started_with_Gantt/) tutorial. The Gantt component displays the task flow and dependencies between tasks. This tutorial shows how to add the Gantt to a page, bind it to data, and configure its core features.
 
-Use **_Product_ for DevExtreme - _Task_** template for a title. 
-
-Describe the solved task in this section.
-
-Put a screenshot/gif that illustrates the result here.
-
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
+<div align="center"><img src="./getting-started-with-gantt.png" /></div>
 
 ## Files to Review
 
-- **jQuery**
-    - [index.js](jQuery/src/index.js)
 - **Angular**
     - [app.component.html](Angular/src/app/app.component.html)
     - [app.component.ts](Angular/src/app/app.component.ts)
-- **Vue**
-    - [Home.vue](Vue/src/components/HomeContent.vue)
+- **jQuery**
+    - [index.js](jQuery/src/index.js)
 - **React**
-    - [App.tsx](React/src/App.tsx)
-- **NetCore**    
-    - [Index.cshtml](ASP.NET%20Core/Views/Home/Index.cshtml)
+    - [App.js](React/src/App.js)
+- **Vue**
+    - [App.vue](Vue/src/App.vue)
 
 ## Documentation
 
-- link
-- link
-- ...
+- [Getting Started with Gantt](https://js.devexpress.com/Documentation/Guide/UI_Components/Gantt/Getting_Started_with_Gantt/)
 
-## More Examples
-
-- link
-- link
-- ...
+- [Gantt - API Reference](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxGantt/)
