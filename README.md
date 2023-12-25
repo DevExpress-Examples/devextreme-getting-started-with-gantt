@@ -4,7 +4,7 @@
 <!-- default badges end -->
 # DevExtreme Gantt - Getting Started 
 
-This repository stores code examples of the Gantt component for the [Getting Started with Gantt](https://js.devexpress.com/Documentation/Guide/UI_Components/Gantt/Getting_Started_with_Gantt/) tutorial. The Gantt component displays the task flow and dependencies between tasks. This tutorial shows how to add the Gantt to a page, bind it to data, and configure its core features.
+This repository stores code examples for the following documentation article: [Getting Started with DevExtreme Gantt Component](https://js.devexpress.com/Documentation/Guide/UI_Components/Gantt/Getting_Started_with_Gantt/). The tutorial shows how you can add a Gantt to a page, bind it to data, and configure its core features. Upon completion, the component displays a task flow with dependencies between tasks. 
 
 <div align="center"><img src="./getting-started-with-gantt.png" /></div>
 
