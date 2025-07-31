@@ -2,20 +2,20 @@ import 'devextreme/dist/css/dx.light.css';
 import 'devexpress-gantt/dist/dx-gantt.min.css';
 
 import Gantt, {
-  Tasks, Dependencies, Resources, ResourceAssignments, Column,
+  Tasks,
+  Dependencies,
+  Resources,
+  ResourceAssignments,
+  Column,
 } from 'devextreme-react/gantt';
 
 import {
   tasks, dependencies, resources, resourceAssignments,
-} from './data.js';
+} from './data.ts';
 
-function App() {
+function App(): JSX.Element {
   return (
-    <Gantt
-      height={250}
-      width={800}
-      rootValue={-1}>
-
+    <Gantt height={250} width={800} rootValue={-1}>
       <Tasks dataSource={tasks} />
       <Dependencies dataSource={dependencies} />
       <Resources dataSource={resources} />
