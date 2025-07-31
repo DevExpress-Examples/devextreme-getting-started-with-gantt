@@ -40,7 +40,7 @@ import {
   dependencies,
   resources,
   resourceAssignments,
-} from './data.js';
+} from './data.ts';
 
 export default {
   components: {
