@@ -18,7 +18,7 @@ This repository stores code examples for the following documentation article: [G
 - **jQuery**
     - [index.js](jQuery/src/index.js)
 - **React**
-    - [App.js](React/src/App.js)
+    - [App.tsx](React/src/App.tsx)
 - **Vue**
     - [App.vue](Vue/src/App.vue)
 
