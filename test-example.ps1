@@ -186,7 +186,7 @@ function Process-AspNetCoreProject {
         Select-Object -First 1 -ExpandProperty FullName
 
     if (-not $folderPath) {
-        Write-Error "Directory matching 'ASP.NET Core' not found."
+        Write-Host "Directory matching 'ASP.NET Core' not found."
         return
     }
 
