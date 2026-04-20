@@ -1,14 +1,15 @@
 import { Component } from '@angular/core';
+import { DxGanttModule } from 'devextreme-angular';
 import {
   Service, Task, Dependency, Resource, ResourceAssignment,
 } from './app.service';
 
 @Component({
     selector: 'app-root',
+    imports: [DxGanttModule],
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css'],
     providers: [Service],
-    standalone: false
 })
 export class AppComponent {
   tasks: Task[];
