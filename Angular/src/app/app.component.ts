@@ -5,11 +5,11 @@ import {
 } from './app.service';
 
 @Component({
-    selector: 'app-root',
-    imports: [DxGanttModule],
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.css'],
-    providers: [Service],
+  selector: 'app-root',
+  imports: [DxGanttModule],
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css'],
+  providers: [Service],
 })
 export class AppComponent {
   tasks: Task[];
