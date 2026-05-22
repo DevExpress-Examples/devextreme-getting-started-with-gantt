@@ -14,11 +14,6 @@ export default [
   ...spellCheck,
   ...reactConfig,
   {
-    rules: {
-      'import/prefer-default-export': 'off',
-    },
-  },
-  {
     files: ['**/*.ts', '**/*.tsx'],
     languageOptions: {
       parserOptions: {
@@ -27,9 +22,7 @@ export default [
       },
     },
     settings: {
-      react: {
-        version: '18.2',
-      },
+      react: { version: '18.2' },
     },
   },
   {

@@ -11,7 +11,7 @@ import Gantt, {
 
 import {
   tasks, dependencies, resources, resourceAssignments,
-} from './data.ts';
+} from './data';
 
 function App(): JSX.Element {
   return (
